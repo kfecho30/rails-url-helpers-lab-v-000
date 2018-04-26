@@ -10,6 +10,9 @@ class StudentsController < ApplicationController
     @message = @student.active ? "This student is currently active." : "This student is currently inactive."
   end
 
+  def activate
+  end
+
   private
 
     def set_student
